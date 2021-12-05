@@ -141,7 +141,7 @@ export default () => {
       .decompose(physicsCube.position, physicsCube.quaternion, physicsCube.scale);
     // console.log('position', physicsObject.position.toArray().join(','), physicsCube.position.toArray().join(','));
     app.updateMatrixWorld();
-    // physicsCube.updateMatrixWorld();
+    physicsCube.updateMatrixWorld();
     updateIndex++;
   });
   
